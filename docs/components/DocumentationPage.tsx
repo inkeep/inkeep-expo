@@ -16,6 +16,7 @@ import { usePageApiVersion } from '~/providers/page-api-version';
 import { NavigationRouteWithSection } from '~/types/common';
 import { Footer } from '~/ui/components/Footer';
 import { Header } from '~/ui/components/Header';
+import { InkeepChatButton } from '~/ui/components/InkeepWidget';
 import { PageTitle } from '~/ui/components/PageTitle';
 import { Separator } from '~/ui/components/Separator';
 import { Sidebar } from '~/ui/components/Sidebar';
@@ -183,6 +184,7 @@ export default function DocumentationPage({
           previousPage={previousPage}
           nextPage={nextPage}
         />
+        <InkeepChatButton />
       </div>
     </DocumentationNestedScrollLayout>
   );
