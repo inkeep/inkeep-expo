@@ -28,6 +28,7 @@
     "@expo/styleguide-base": "^1.0.1",
     "@expo/styleguide-icons": "^1.0.8",
     "@expo/styleguide-search-ui": "^1.0.4",
+    "@inkeep/widgets": "^0.2.260",
     "@mdx-js/loader": "^2.2.1",
     "@mdx-js/mdx": "^2.2.1",
     "@mdx-js/react": "^2.2.1",
